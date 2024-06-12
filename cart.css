@@ -1,0 +1,32 @@
+.cart {
+    position: fixed;
+    top: 100px; /* Отступ от верхнего края страницы */
+    right: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Гарантирует, что корзина будет поверх других элементов */
+    max-width: 300px; /* Максимальная ширина корзины */
+}
+
+.cart h2 {
+    margin-top: 0;
+}
+
+.cart ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.cart ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    width: 200px; 
+}
